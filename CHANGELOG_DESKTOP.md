@@ -1,5 +1,62 @@
 # Changelog
 
+## [1.20.110](https://github.com/brave/brave-browser/releases/tag/v1.20.110)
+
+ - [Security] Fixed issue when visiting ".onion" URL in a normal window would cause DNS leak. ([#14261](https://github.com/brave/brave-browser/issues/14261))
+ - Fixed crash when opening ".onion" link in certain cases on Linux. ([#13736](https://github.com/brave/brave-browser/issues/13736))
+ - Fixed ledger process incorrectly starting when visiting certain sites. ([#14307](https://github.com/brave/brave-browser/issues/14307))
+ - Upgraded Chromium to 88.0.4324.192. ([#14302](https://github.com/brave/brave-browser/issues/14302))
+
+## [1.20.108](https://github.com/brave/brave-browser/releases/tag/v1.20.108)
+
+ - [Security] Fixed DNS leak regression in Tor windows as reported on HackerOne by xiaoyinl. ([#13527](https://github.com/brave/brave-browser/issues/13527))
+ - [Security] Fixed ISP DNS leak when shields are enabled. ([#12575](https://github.com/brave/brave-browser/issues/12575))
+ - Removed "x-client-data" header from requests in certain cases. ([#8049](https://github.com/brave/brave-browser/issues/8049))
+ - Fixed crash when using OS zoom function on macOS in certain cases. ([#8149](https://github.com/brave/brave-browser/issues/8149))
+ - Fixed crash when using digital keyboard on macOS in certain cases. ([#7546](https://github.com/brave/brave-browser/issues/7546))
+ - Upgraded Chromium to 88.0.4324.182. ([#14187](https://github.com/brave/brave-browser/issues/14187))
+
+## [1.20.103](https://github.com/brave/brave-browser/releases/tag/v1.20.103)
+
+ - Added extension support for Tor windows. ([#2761](https://github.com/brave/brave-browser/issues/2761))
+ - Added "IPFS public gateway address" setting under brave://settings/extensions. ([#11563](https://github.com/brave/brave-browser/issues/11563))
+ - Added "Redirect IPFS resources to the configured IPFS gateway" setting under brave://settings/extensions. ([#11564](https://github.com/brave/brave-browser/issues/11564))
+ - [Security] Enabled Safety Tips component. ([#12999](https://github.com/brave/brave-browser/issues/12999))
+ - [Security] Removed connection to https://accounts.google.com when enabling Brave Sync. ([#12984](https://github.com/brave/brave-browser/issues/12984))
+ - [Security] Fixed Greaselion being enabled by default in private mode. ([#13506](https://github.com/brave/brave-browser/issues/13506))
+ - [Security] Fixed Crypto Wallets being enabled by default in private mode. ([#13279](https://github.com/brave/brave-browser/issues/13279))
+ - [Security] Fixed mixed content connections not being auto-upgraded when available. ([#10190](https://github.com/brave/brave-browser/issues/10190))
+ - [Security] Fixed Tor Onion-Location header issue as reported on HackerOne by Muneaki Nishimura. ([#13828](https://github.com/brave/brave-browser/issues/13828))
+ - Implemented onboarding tour for Brave Rewards. ([#12459](https://github.com/brave/brave-browser/issues/12459))
+ - Enabled Crowd Deny component. ([#13426](https://github.com/brave/brave-browser/issues/13426))
+ - Enabled Widevine component updater on Linux. ([#7081](https://github.com/brave/brave-browser/issues/7081))
+ - Updated macOS application icons. ([#13005](https://github.com/brave/brave-browser/issues/13005))
+ - Disabled Wayback Machine infobar on Wayback Machine URLs. ([#13306](https://github.com/brave/brave-browser/issues/13306))
+ - Removed unsupported components from brave://components. ([#8709](https://github.com/brave/brave-browser/issues/8709))
+ - Fixed webview crash on exiting brave://adblock in certain cases. ([#13775](https://github.com/brave/brave-browser/issues/13775))
+ - Fixed intermittent crash in Greaselion service on shutdown. ([#13906](https://github.com/brave/brave-browser/issues/13906))
+ - Fixed in-line tip buttons being displayed when the Brave Rewards icon is hidden. ([#13341](https://github.com/brave/brave-browser/issues/13341))
+ - Fixed inability to create sync chain due to leading and trailing whitespace in code words. ([#10860](https://github.com/brave/brave-browser/issues/10860))
+ - Fixed automatic update failing for Google components. ([#10464](https://github.com/brave/brave-browser/issues/10464))
+ - Fixed autoplay blocked indicator incorrectly being displayed in certain cases. ([#13167](https://github.com/brave/brave-browser/issues/13167))
+
+## [1.19.92](https://github.com/brave/brave-browser/releases/tag/v1.19.92)
+
+ - Upgraded Chromium to 88.0.4324.152. ([#13969](https://github.com/brave/brave-browser/issues/13969))
+
+## [1.19.90](https://github.com/brave/brave-browser/releases/tag/v1.19.90)
+
+ - Fixed accessibility crash which occurred on macOS in certain cases. ([#13778](https://github.com/brave/brave-browser/issues/13778))
+ - Fixed incorrect time being displayed on the New Tab Page in certain cases. ([#13669](https://github.com/brave/brave-browser/issues/13669))
+ - Upgraded Chromium to 88.0.4324.146. ([#13900](https://github.com/brave/brave-browser/issues/13900))
+
+## [1.19.88](https://github.com/brave/brave-browser/releases/tag/v1.19.88)
+
+ - Added Apple entitlement for Chromium PWA support. ([#8027](https://github.com/brave/brave-browser/issues/8027))
+ - Added Ecosia to the default search engine list for several new regions. ([#13511](https://github.com/brave/brave-browser/issues/13511))
+ - Fixed not being able to play HBO Max content due to "kVideoPlaybackQuality" being disabled. ([#13679](https://github.com/brave/brave-browser/issues/13679))
+ - Fixed sponsored logo under New Tab Page being hidden on certain window sizes. ([#13694](https://github.com/brave/brave-browser/issues/13694))
+
 ## [1.19.86](https://github.com/brave/brave-browser/releases/tag/v1.19.86)
 
  - Added native IPFS support. ([#10220](https://github.com/brave/brave-browser/issues/10220))
